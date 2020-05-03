@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B183B8D1A50C9740031EE02 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B183B8C1A50C9740031EE02 /* main.m */; };
+		2B183B901A50C9740031EE02 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B183B8F1A50C9740031EE02 /* AppDelegate.m */; };
+		2B183B931A50C9740031EE02 /* DhammaTube3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2B183B911A50C9740031EE02 /* DhammaTube3.xcdatamodeld */; };
+		2B183B961A50C9740031EE02 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B183B951A50C9740031EE02 /* ViewController.m */; };
+		2B183B991A50C9740031EE02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B183B971A50C9740031EE02 /* Main.storyboard */; };
+		2B183B9B1A50C9740031EE02 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B183B9A1A50C9740031EE02 /* Images.xcassets */; };
+		2B183B9E1A50C9740031EE02 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B183B9C1A50C9740031EE02 /* LaunchScreen.xib */; };
+		2B183BAA1A50C9740031EE02 /* DhammaTube3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B183BA91A50C9740031EE02 /* DhammaTube3Tests.m */; };
+		2B183C101A50CA120031EE02 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B183C0F1A50CA120031EE02 /* CoreData.framework */; };
+		2B183C6A1A50CBF50031EE02 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B183C691A50CBF50031EE02 /* CoreFoundation.framework */; };
+		2B183C6C1A50CBFC0031EE02 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B183C6B1A50CBFC0031EE02 /* Foundation.framework */; };
+		2B183C6E1A50CC030031EE02 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B183C6D1A50CC030031EE02 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B183BA41A50C9740031EE02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B183B7F1A50C9740031EE02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B183B861A50C9740031EE02;
+			remoteInfo = DhammaTube3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B183B871A50C9740031EE02 /* DhammaTube3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DhammaTube3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B183B8B1A50C9740031EE02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B183B8C1A50C9740031EE02 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B183B8E1A50C9740031EE02 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2B183B8F1A50C9740031EE02 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2B183B921A50C9740031EE02 /* DhammaTube3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DhammaTube3.xcdatamodel; sourceTree = "<group>"; };
+		2B183B941A50C9740031EE02 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2B183B951A50C9740031EE02 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2B183B981A50C9740031EE02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B183B9A1A50C9740031EE02 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2B183B9D1A50C9740031EE02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2B183BA31A50C9740031EE02 /* DhammaTube3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DhammaTube3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B183BA81A50C9740031EE02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B183BA91A50C9740031EE02 /* DhammaTube3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DhammaTube3Tests.m; sourceTree = "<group>"; };
+		2B183C0F1A50CA120031EE02 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2B183C691A50CBF50031EE02 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		2B183C6B1A50CBFC0031EE02 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2B183C6D1A50CC030031EE02 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B183B841A50C9740031EE02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B183C6E1A50CC030031EE02 /* UIKit.framework in Frameworks */,
+				2B183C6C1A50CBFC0031EE02 /* Foundation.framework in Frameworks */,
+				2B183C6A1A50CBF50031EE02 /* CoreFoundation.framework in Frameworks */,
+				2B183C101A50CA120031EE02 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B183BA01A50C9740031EE02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B183B7E1A50C9740031EE02 = {
+			isa = PBXGroup;
+			children = (
+				2B183B891A50C9740031EE02 /* DhammaTube3 */,
+				2B183BA61A50C9740031EE02 /* DhammaTube3Tests */,
+				2B183B881A50C9740031EE02 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B183B881A50C9740031EE02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B183B871A50C9740031EE02 /* DhammaTube3.app */,
+				2B183BA31A50C9740031EE02 /* DhammaTube3Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B183B891A50C9740031EE02 /* DhammaTube3 */ = {
+			isa = PBXGroup;
+			children = (
+				2B183BB31A50C9AB0031EE02 /* LIbraries */,
+				2B183B8E1A50C9740031EE02 /* AppDelegate.h */,
+				2B183B8F1A50C9740031EE02 /* AppDelegate.m */,
+				2B183B941A50C9740031EE02 /* ViewController.h */,
+				2B183B951A50C9740031EE02 /* ViewController.m */,
+				2B183B971A50C9740031EE02 /* Main.storyboard */,
+				2B183B9A1A50C9740031EE02 /* Images.xcassets */,
+				2B183B9C1A50C9740031EE02 /* LaunchScreen.xib */,
+				2B183B911A50C9740031EE02 /* DhammaTube3.xcdatamodeld */,
+				2B183B8A1A50C9740031EE02 /* Supporting Files */,
+			);
+			path = DhammaTube3;
+			sourceTree = "<group>";
+		};
+		2B183B8A1A50C9740031EE02 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B183C6D1A50CC030031EE02 /* UIKit.framework */,
+				2B183C6B1A50CBFC0031EE02 /* Foundation.framework */,
+				2B183C691A50CBF50031EE02 /* CoreFoundation.framework */,
+				2B183C0F1A50CA120031EE02 /* CoreData.framework */,
+				2B183B8B1A50C9740031EE02 /* Info.plist */,
+				2B183B8C1A50C9740031EE02 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2B183BA61A50C9740031EE02 /* DhammaTube3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2B183BA91A50C9740031EE02 /* DhammaTube3Tests.m */,
+				2B183BA71A50C9740031EE02 /* Supporting Files */,
+			);
+			path = DhammaTube3Tests;
+			sourceTree = "<group>";
+		};
+		2B183BA71A50C9740031EE02 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B183BA81A50C9740031EE02 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2B183BB31A50C9AB0031EE02 /* LIbraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = LIbraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B183B861A50C9740031EE02 /* DhammaTube3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B183BAD1A50C9740031EE02 /* Build configuration list for PBXNativeTarget "DhammaTube3" */;
+			buildPhases = (
+				2B183B831A50C9740031EE02 /* Sources */,
+				2B183B841A50C9740031EE02 /* Frameworks */,
+				2B183B851A50C9740031EE02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DhammaTube3;
+			productName = DhammaTube3;
+			productReference = 2B183B871A50C9740031EE02 /* DhammaTube3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B183BA21A50C9740031EE02 /* DhammaTube3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B183BB01A50C9740031EE02 /* Build configuration list for PBXNativeTarget "DhammaTube3Tests" */;
+			buildPhases = (
+				2B183B9F1A50C9740031EE02 /* Sources */,
+				2B183BA01A50C9740031EE02 /* Frameworks */,
+				2B183BA11A50C9740031EE02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B183BA51A50C9740031EE02 /* PBXTargetDependency */,
+			);
+			name = DhammaTube3Tests;
+			productName = DhammaTube3Tests;
+			productReference = 2B183BA31A50C9740031EE02 /* DhammaTube3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B183B7F1A50C9740031EE02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Qi Mu";
+				TargetAttributes = {
+					2B183B861A50C9740031EE02 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					2B183BA21A50C9740031EE02 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 2B183B861A50C9740031EE02;
+					};
+				};
+			};
+			buildConfigurationList = 2B183B821A50C9740031EE02 /* Build configuration list for PBXProject "DhammaTube3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B183B7E1A50C9740031EE02;
+			productRefGroup = 2B183B881A50C9740031EE02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B183B861A50C9740031EE02 /* DhammaTube3 */,
+				2B183BA21A50C9740031EE02 /* DhammaTube3Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B183B851A50C9740031EE02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B183B991A50C9740031EE02 /* Main.storyboard in Resources */,
+				2B183B9E1A50C9740031EE02 /* LaunchScreen.xib in Resources */,
+				2B183B9B1A50C9740031EE02 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B183BA11A50C9740031EE02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B183B831A50C9740031EE02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B183B901A50C9740031EE02 /* AppDelegate.m in Sources */,
+				2B183B931A50C9740031EE02 /* DhammaTube3.xcdatamodeld in Sources */,
+				2B183B961A50C9740031EE02 /* ViewController.m in Sources */,
+				2B183B8D1A50C9740031EE02 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B183B9F1A50C9740031EE02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B183BAA1A50C9740031EE02 /* DhammaTube3Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B183BA51A50C9740031EE02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B183B861A50C9740031EE02 /* DhammaTube3 */;
+			targetProxy = 2B183BA41A50C9740031EE02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B183B971A50C9740031EE02 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B183B981A50C9740031EE02 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B183B9C1A50C9740031EE02 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B183B9D1A50C9740031EE02 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B183BAB1A50C9740031EE02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		2B183BAC1A50C9740031EE02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B183BAE1A50C9740031EE02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DhammaTube3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2B183BAF1A50C9740031EE02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DhammaTube3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2B183BB11A50C9740031EE02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DhammaTube3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DhammaTube3.app/DhammaTube3";
+			};
+			name = Debug;
+		};
+		2B183BB21A50C9740031EE02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DhammaTube3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DhammaTube3.app/DhammaTube3";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B183B821A50C9740031EE02 /* Build configuration list for PBXProject "DhammaTube3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B183BAB1A50C9740031EE02 /* Debug */,
+				2B183BAC1A50C9740031EE02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B183BAD1A50C9740031EE02 /* Build configuration list for PBXNativeTarget "DhammaTube3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B183BAE1A50C9740031EE02 /* Debug */,
+				2B183BAF1A50C9740031EE02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2B183BB01A50C9740031EE02 /* Build configuration list for PBXNativeTarget "DhammaTube3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B183BB11A50C9740031EE02 /* Debug */,
+				2B183BB21A50C9740031EE02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2B183B911A50C9740031EE02 /* DhammaTube3.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2B183B921A50C9740031EE02 /* DhammaTube3.xcdatamodel */,
+			);
+			currentVersion = 2B183B921A50C9740031EE02 /* DhammaTube3.xcdatamodel */;
+			path = DhammaTube3.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2B183B7F1A50C9740031EE02 /* Project object */;
+}

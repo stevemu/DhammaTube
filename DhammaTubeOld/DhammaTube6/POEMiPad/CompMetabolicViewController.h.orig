@@ -1,0 +1,20 @@
+//
+//  CompMetabolicViewController.h
+//  ZobreusMedical
+//
+//  Created by Sebastian Aguirre on 6/14/14.
+//  Copyright (c) 2014 George Reyes. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#import "MetabolicPanelCell.h"
+
+@interface CompMetabolicViewController : UIViewController <UITableViewDataSource,UITableViewDelegate>
+<<<<<<< HEAD
+//this is for a mergeasdfsa
+=======
+//nut crust
+
+
+>>>>>>> updates
+@end

@@ -1,0 +1,15 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '7.1'
+
+target 'DhammaTube' do
+
+pod "youtube-ios-player-helper", "~> 0.1.1"
+pod "MagicalRecord"
+
+
+end
+
+#target 'DhammadipaYoutubeTests' do
+
+#end
+

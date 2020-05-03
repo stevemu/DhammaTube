@@ -1,0 +1,29 @@
+//
+//  DeleteConfirmationView.h
+//  POEMiPad
+//
+//  Created by Sebastian Aguirre on 8/12/14.
+//  Copyright (c) 2014 Zobreus. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+#import "ZZZLabel.h"
+
+#include "CanAddDelete.h"
+
+@interface DeleteConfirmationViewController : UIViewController
+
+@property ZZZLabel * deleteMssg;
+@property ZZZLabel * identifier;
+
+@property UIButton * yes;
+@property UIButton * no;
+
+@property NSString * message;
+
+//to be able to make mask snap back when no is picked
+@property UIView * viewInQuestion;
+
+@property (weak) id<CanAddDelete> mainController;
+
+@end

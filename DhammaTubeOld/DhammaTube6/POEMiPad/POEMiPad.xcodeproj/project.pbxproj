@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B2916E3194B67FA005786E8 /* Sebastian.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B2916E2194B67FA005786E8 /* Sebastian.storyboard */; };
+		2B2916E9194B726A005786E8 /* SignInModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2916E8194B726A005786E8 /* SignInModalViewController.m */; };
+		2B2916F5194B7C02005786E8 /* MyInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2916EC194B7C02005786E8 /* MyInfoViewController.m */; };
+		2B2916F6194B7C02005786E8 /* MyInfoPicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2916EE194B7C02005786E8 /* MyInfoPicCell.m */; };
+		2B2916F7194B7C02005786E8 /* profileAvatarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B2916EF194B7C02005786E8 /* profileAvatarCell.xib */; };
+		2B2916F8194B7C02005786E8 /* profileFavoriteCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B2916F0194B7C02005786E8 /* profileFavoriteCell.xib */; };
+		2B2916F9194B7C02005786E8 /* MyInfoViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2916F2194B7C02005786E8 /* MyInfoViewCell.m */; };
+		2B2916FA194B7C02005786E8 /* UserMetric.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B2916F4194B7C02005786E8 /* UserMetric.m */; };
+		2BC31925194BE1A900755063 /* ZZZSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC31924194BE1A900755063 /* ZZZSettingViewController.m */; };
+		2BC3192E194BE45E00755063 /* providerViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BC3192A194BE45E00755063 /* providerViewCell.xib */; };
+		2BC3192F194BE45E00755063 /* providerViewCellFullSize.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BC3192B194BE45E00755063 /* providerViewCellFullSize.xib */; };
+		2BC31930194BE45E00755063 /* ProviderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC3192D194BE45E00755063 /* ProviderViewController.m */; };
+		2BC31935194BE56B00755063 /* PatientCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC31932194BE56B00755063 /* PatientCell.m */; };
+		2BC31936194BE56B00755063 /* Patient.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC31934194BE56B00755063 /* Patient.m */; };
+		2BE83BF2194B554C00E35681 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BE83BF1194B554C00E35681 /* Foundation.framework */; };
+		2BE83BF4194B554C00E35681 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BE83BF3194B554C00E35681 /* CoreGraphics.framework */; };
+		2BE83BF6194B554C00E35681 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BE83BF5194B554C00E35681 /* UIKit.framework */; };
+		2BE83BFC194B554C00E35681 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2BE83BFA194B554C00E35681 /* InfoPlist.strings */; };
+		2BE83BFE194B554C00E35681 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE83BFD194B554C00E35681 /* main.m */; };
+		2BE83C04194B554C00E35681 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BE83C03194B554C00E35681 /* Images.xcassets */; };
+		2BE83C0B194B554C00E35681 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BE83C0A194B554C00E35681 /* XCTest.framework */; };
+		2BE83C0C194B554C00E35681 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BE83BF1194B554C00E35681 /* Foundation.framework */; };
+		2BE83C0D194B554C00E35681 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BE83BF5194B554C00E35681 /* UIKit.framework */; };
+		2BE83C15194B554C00E35681 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2BE83C13194B554C00E35681 /* InfoPlist.strings */; };
+		2BE83C17194B554C00E35681 /* Sidebar4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE83C16194B554C00E35681 /* Sidebar4Tests.m */; };
+		2BE83C2C194B557600E35681 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE83C21194B557600E35681 /* AppDelegate.m */; };
+		2BE83C2D194B557600E35681 /* CustomAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE83C23194B557600E35681 /* CustomAnimationController.m */; };
+		2BE83C2E194B557600E35681 /* RearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE83C25194B557600E35681 /* RearViewController.m */; };
+		2BE83C2F194B557600E35681 /* RearViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BE83C26194B557600E35681 /* RearViewController.xib */; };
+		2BE83C30194B557600E35681 /* FrontViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE83C28194B557600E35681 /* FrontViewController.m */; };
+		2BE83C31194B557600E35681 /* FrontViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BE83C29194B557600E35681 /* FrontViewController.xib */; };
+		2BE83C32194B557600E35681 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE83C2B194B557600E35681 /* SWRevealViewController.m */; };
+		2BE83C3B194B568600E35681 /* ZZZFieldBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE83C35194B568600E35681 /* ZZZFieldBackground.m */; };
+		2BE83C3C194B568600E35681 /* ZZZIconToDrag.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE83C37194B568600E35681 /* ZZZIconToDrag.m */; };
+		2BE83C3D194B568600E35681 /* ZZZProviderNoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE83C39194B568600E35681 /* ZZZProviderNoteViewController.m */; };
+		2BE83C3E194B568600E35681 /* ZZZProviderNoteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BE83C3A194B568600E35681 /* ZZZProviderNoteViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BE83C0E194B554C00E35681 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BE83BE6194B554C00E35681 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BE83BED194B554C00E35681;
+			remoteInfo = Sidebar4;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B2916E2194B67FA005786E8 /* Sebastian.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Sebastian.storyboard; sourceTree = "<group>"; };
+		2B2916E7194B726A005786E8 /* SignInModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInModalViewController.h; sourceTree = "<group>"; };
+		2B2916E8194B726A005786E8 /* SignInModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInModalViewController.m; sourceTree = "<group>"; };
+		2B2916EB194B7C02005786E8 /* MyInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyInfoViewController.h; sourceTree = "<group>"; };
+		2B2916EC194B7C02005786E8 /* MyInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyInfoViewController.m; sourceTree = "<group>"; };
+		2B2916ED194B7C02005786E8 /* MyInfoPicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyInfoPicCell.h; sourceTree = "<group>"; };
+		2B2916EE194B7C02005786E8 /* MyInfoPicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyInfoPicCell.m; sourceTree = "<group>"; };
+		2B2916EF194B7C02005786E8 /* profileAvatarCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = profileAvatarCell.xib; sourceTree = "<group>"; };
+		2B2916F0194B7C02005786E8 /* profileFavoriteCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = profileFavoriteCell.xib; sourceTree = "<group>"; };
+		2B2916F1194B7C02005786E8 /* MyInfoViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyInfoViewCell.h; sourceTree = "<group>"; };
+		2B2916F2194B7C02005786E8 /* MyInfoViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyInfoViewCell.m; sourceTree = "<group>"; };
+		2B2916F3194B7C02005786E8 /* UserMetric.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserMetric.h; sourceTree = "<group>"; };
+		2B2916F4194B7C02005786E8 /* UserMetric.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserMetric.m; sourceTree = "<group>"; };
+		2BC31923194BE1A900755063 /* ZZZSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZZSettingViewController.h; sourceTree = "<group>"; };
+		2BC31924194BE1A900755063 /* ZZZSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZZSettingViewController.m; sourceTree = "<group>"; };
+		2BC3192A194BE45E00755063 /* providerViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = providerViewCell.xib; sourceTree = "<group>"; };
+		2BC3192B194BE45E00755063 /* providerViewCellFullSize.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = providerViewCellFullSize.xib; sourceTree = "<group>"; };
+		2BC3192C194BE45E00755063 /* ProviderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProviderViewController.h; sourceTree = "<group>"; };
+		2BC3192D194BE45E00755063 /* ProviderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProviderViewController.m; sourceTree = "<group>"; };
+		2BC31931194BE56B00755063 /* PatientCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatientCell.h; sourceTree = "<group>"; };
+		2BC31932194BE56B00755063 /* PatientCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatientCell.m; sourceTree = "<group>"; };
+		2BC31933194BE56B00755063 /* Patient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Patient.h; sourceTree = "<group>"; };
+		2BC31934194BE56B00755063 /* Patient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Patient.m; sourceTree = "<group>"; };
+		2BE83BEE194B554C00E35681 /* POEMiPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = POEMiPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BE83BF1194B554C00E35681 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2BE83BF3194B554C00E35681 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2BE83BF5194B554C00E35681 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2BE83BF9194B554C00E35681 /* POEMiPad-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "POEMiPad-Info.plist"; sourceTree = "<group>"; };
+		2BE83BFB194B554C00E35681 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2BE83BFD194B554C00E35681 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2BE83BFF194B554C00E35681 /* POEMiPad-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "POEMiPad-Prefix.pch"; sourceTree = "<group>"; };
+		2BE83C03194B554C00E35681 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2BE83C09194B554C00E35681 /* POEMiPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = POEMiPadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BE83C0A194B554C00E35681 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2BE83C12194B554C00E35681 /* POEMiPadTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "POEMiPadTests-Info.plist"; sourceTree = "<group>"; };
+		2BE83C14194B554C00E35681 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2BE83C16194B554C00E35681 /* Sidebar4Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sidebar4Tests.m; sourceTree = "<group>"; };
+		2BE83C20194B557600E35681 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2BE83C21194B557600E35681 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2BE83C22194B557600E35681 /* CustomAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnimationController.h; sourceTree = "<group>"; };
+		2BE83C23194B557600E35681 /* CustomAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAnimationController.m; sourceTree = "<group>"; };
+		2BE83C24194B557600E35681 /* RearViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RearViewController.h; sourceTree = "<group>"; };
+		2BE83C25194B557600E35681 /* RearViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RearViewController.m; sourceTree = "<group>"; };
+		2BE83C26194B557600E35681 /* RearViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RearViewController.xib; sourceTree = "<group>"; };
+		2BE83C27194B557600E35681 /* FrontViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrontViewController.h; sourceTree = "<group>"; };
+		2BE83C28194B557600E35681 /* FrontViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrontViewController.m; sourceTree = "<group>"; };
+		2BE83C29194B557600E35681 /* FrontViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FrontViewController.xib; sourceTree = "<group>"; };
+		2BE83C2A194B557600E35681 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		2BE83C2B194B557600E35681 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		2BE83C34194B568600E35681 /* ZZZFieldBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZZFieldBackground.h; sourceTree = "<group>"; };
+		2BE83C35194B568600E35681 /* ZZZFieldBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZZFieldBackground.m; sourceTree = "<group>"; };
+		2BE83C36194B568600E35681 /* ZZZIconToDrag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZZIconToDrag.h; sourceTree = "<group>"; };
+		2BE83C37194B568600E35681 /* ZZZIconToDrag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZZIconToDrag.m; sourceTree = "<group>"; };
+		2BE83C38194B568600E35681 /* ZZZProviderNoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZZProviderNoteViewController.h; sourceTree = "<group>"; };
+		2BE83C39194B568600E35681 /* ZZZProviderNoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZZProviderNoteViewController.m; sourceTree = "<group>"; };
+		2BE83C3A194B568600E35681 /* ZZZProviderNoteViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZZZProviderNoteViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BE83BEB194B554C00E35681 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE83BF4194B554C00E35681 /* CoreGraphics.framework in Frameworks */,
+				2BE83BF6194B554C00E35681 /* UIKit.framework in Frameworks */,
+				2BE83BF2194B554C00E35681 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BE83C06194B554C00E35681 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE83C0B194B554C00E35681 /* XCTest.framework in Frameworks */,
+				2BE83C0D194B554C00E35681 /* UIKit.framework in Frameworks */,
+				2BE83C0C194B554C00E35681 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B2916DC194B657A005786E8 /* SideBar */ = {
+			isa = PBXGroup;
+			children = (
+				2BE83C2A194B557600E35681 /* SWRevealViewController.h */,
+				2BE83C2B194B557600E35681 /* SWRevealViewController.m */,
+				2BE83C22194B557600E35681 /* CustomAnimationController.h */,
+				2BE83C23194B557600E35681 /* CustomAnimationController.m */,
+				2BE83C24194B557600E35681 /* RearViewController.h */,
+				2BE83C25194B557600E35681 /* RearViewController.m */,
+				2BE83C26194B557600E35681 /* RearViewController.xib */,
+			);
+			name = SideBar;
+			sourceTree = "<group>";
+		};
+		2B2916DD194B659B005786E8 /* FrontView */ = {
+			isa = PBXGroup;
+			children = (
+				2BE83C27194B557600E35681 /* FrontViewController.h */,
+				2BE83C28194B557600E35681 /* FrontViewController.m */,
+				2BE83C29194B557600E35681 /* FrontViewController.xib */,
+			);
+			name = FrontView;
+			sourceTree = "<group>";
+		};
+		2B2916DE194B65D6005786E8 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				2B2916E7194B726A005786E8 /* SignInModalViewController.h */,
+				2B2916E8194B726A005786E8 /* SignInModalViewController.m */,
+			);
+			name = SignIn;
+			sourceTree = "<group>";
+		};
+		2B2916E1194B67D8005786E8 /* MadeBySebastian */ = {
+			isa = PBXGroup;
+			children = (
+				2BC31926194BE41300755063 /* ProviderView */,
+				2BC31922194BE13A00755063 /* Setting */,
+				2B2916DE194B65D6005786E8 /* SignIn */,
+				2B2916EA194B7BC8005786E8 /* MyInfo */,
+				2B2916E2194B67FA005786E8 /* Sebastian.storyboard */,
+			);
+			name = MadeBySebastian;
+			sourceTree = "<group>";
+		};
+		2B2916EA194B7BC8005786E8 /* MyInfo */ = {
+			isa = PBXGroup;
+			children = (
+				2B2916EB194B7C02005786E8 /* MyInfoViewController.h */,
+				2B2916EC194B7C02005786E8 /* MyInfoViewController.m */,
+				2B2916ED194B7C02005786E8 /* MyInfoPicCell.h */,
+				2B2916EE194B7C02005786E8 /* MyInfoPicCell.m */,
+				2B2916EF194B7C02005786E8 /* profileAvatarCell.xib */,
+				2B2916F0194B7C02005786E8 /* profileFavoriteCell.xib */,
+				2B2916F1194B7C02005786E8 /* MyInfoViewCell.h */,
+				2B2916F2194B7C02005786E8 /* MyInfoViewCell.m */,
+				2B2916F3194B7C02005786E8 /* UserMetric.h */,
+				2B2916F4194B7C02005786E8 /* UserMetric.m */,
+			);
+			name = MyInfo;
+			sourceTree = "<group>";
+		};
+		2BC31922194BE13A00755063 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				2BC31923194BE1A900755063 /* ZZZSettingViewController.h */,
+				2BC31924194BE1A900755063 /* ZZZSettingViewController.m */,
+			);
+			name = Setting;
+			sourceTree = "<group>";
+		};
+		2BC31926194BE41300755063 /* ProviderView */ = {
+			isa = PBXGroup;
+			children = (
+				2BC31931194BE56B00755063 /* PatientCell.h */,
+				2BC31932194BE56B00755063 /* PatientCell.m */,
+				2BC31933194BE56B00755063 /* Patient.h */,
+				2BC31934194BE56B00755063 /* Patient.m */,
+				2BC3192A194BE45E00755063 /* providerViewCell.xib */,
+				2BC3192B194BE45E00755063 /* providerViewCellFullSize.xib */,
+				2BC3192C194BE45E00755063 /* ProviderViewController.h */,
+				2BC3192D194BE45E00755063 /* ProviderViewController.m */,
+			);
+			name = ProviderView;
+			sourceTree = "<group>";
+		};
+		2BE83BE5194B554C00E35681 = {
+			isa = PBXGroup;
+			children = (
+				2BE83BF7194B554C00E35681 /* POEMiPad */,
+				2BE83C10194B554C00E35681 /* POEMiPadTests */,
+				2BE83BF0194B554C00E35681 /* Frameworks */,
+				2BE83BEF194B554C00E35681 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BE83BEF194B554C00E35681 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BE83BEE194B554C00E35681 /* POEMiPad.app */,
+				2BE83C09194B554C00E35681 /* POEMiPadTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BE83BF0194B554C00E35681 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BE83BF1194B554C00E35681 /* Foundation.framework */,
+				2BE83BF3194B554C00E35681 /* CoreGraphics.framework */,
+				2BE83BF5194B554C00E35681 /* UIKit.framework */,
+				2BE83C0A194B554C00E35681 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2BE83BF7194B554C00E35681 /* POEMiPad */ = {
+			isa = PBXGroup;
+			children = (
+				2B2916E1194B67D8005786E8 /* MadeBySebastian */,
+				2B2916DC194B657A005786E8 /* SideBar */,
+				2B2916DD194B659B005786E8 /* FrontView */,
+				2BE83C33194B565A00E35681 /* ProviderNote */,
+				2BE83C20194B557600E35681 /* AppDelegate.h */,
+				2BE83C21194B557600E35681 /* AppDelegate.m */,
+				2BE83C03194B554C00E35681 /* Images.xcassets */,
+				2BE83BF8194B554C00E35681 /* Supporting Files */,
+			);
+			path = POEMiPad;
+			sourceTree = "<group>";
+		};
+		2BE83BF8194B554C00E35681 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BE83BF9194B554C00E35681 /* POEMiPad-Info.plist */,
+				2BE83BFA194B554C00E35681 /* InfoPlist.strings */,
+				2BE83BFD194B554C00E35681 /* main.m */,
+				2BE83BFF194B554C00E35681 /* POEMiPad-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2BE83C10194B554C00E35681 /* POEMiPadTests */ = {
+			isa = PBXGroup;
+			children = (
+				2BE83C16194B554C00E35681 /* Sidebar4Tests.m */,
+				2BE83C11194B554C00E35681 /* Supporting Files */,
+			);
+			name = POEMiPadTests;
+			path = Sidebar4Tests;
+			sourceTree = "<group>";
+		};
+		2BE83C11194B554C00E35681 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BE83C12194B554C00E35681 /* POEMiPadTests-Info.plist */,
+				2BE83C13194B554C00E35681 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2BE83C33194B565A00E35681 /* ProviderNote */ = {
+			isa = PBXGroup;
+			children = (
+				2BE83C34194B568600E35681 /* ZZZFieldBackground.h */,
+				2BE83C35194B568600E35681 /* ZZZFieldBackground.m */,
+				2BE83C36194B568600E35681 /* ZZZIconToDrag.h */,
+				2BE83C37194B568600E35681 /* ZZZIconToDrag.m */,
+				2BE83C38194B568600E35681 /* ZZZProviderNoteViewController.h */,
+				2BE83C39194B568600E35681 /* ZZZProviderNoteViewController.m */,
+				2BE83C3A194B568600E35681 /* ZZZProviderNoteViewController.xib */,
+			);
+			name = ProviderNote;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BE83BED194B554C00E35681 /* POEMiPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BE83C1A194B554C00E35681 /* Build configuration list for PBXNativeTarget "POEMiPad" */;
+			buildPhases = (
+				2BE83BEA194B554C00E35681 /* Sources */,
+				2BE83BEB194B554C00E35681 /* Frameworks */,
+				2BE83BEC194B554C00E35681 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = POEMiPad;
+			productName = Sidebar4;
+			productReference = 2BE83BEE194B554C00E35681 /* POEMiPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2BE83C08194B554C00E35681 /* POEMiPadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BE83C1D194B554C00E35681 /* Build configuration list for PBXNativeTarget "POEMiPadTests" */;
+			buildPhases = (
+				2BE83C05194B554C00E35681 /* Sources */,
+				2BE83C06194B554C00E35681 /* Frameworks */,
+				2BE83C07194B554C00E35681 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BE83C0F194B554C00E35681 /* PBXTargetDependency */,
+			);
+			name = POEMiPadTests;
+			productName = Sidebar4Tests;
+			productReference = 2BE83C09194B554C00E35681 /* POEMiPadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BE83BE6194B554C00E35681 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZZZ;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Zobreus;
+				TargetAttributes = {
+					2BE83C08194B554C00E35681 = {
+						TestTargetID = 2BE83BED194B554C00E35681;
+					};
+				};
+			};
+			buildConfigurationList = 2BE83BE9194B554C00E35681 /* Build configuration list for PBXProject "POEMiPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2BE83BE5194B554C00E35681;
+			productRefGroup = 2BE83BEF194B554C00E35681 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BE83BED194B554C00E35681 /* POEMiPad */,
+				2BE83C08194B554C00E35681 /* POEMiPadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BE83BEC194B554C00E35681 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B2916E3194B67FA005786E8 /* Sebastian.storyboard in Resources */,
+				2B2916F8194B7C02005786E8 /* profileFavoriteCell.xib in Resources */,
+				2BE83C31194B557600E35681 /* FrontViewController.xib in Resources */,
+				2BC3192F194BE45E00755063 /* providerViewCellFullSize.xib in Resources */,
+				2B2916F7194B7C02005786E8 /* profileAvatarCell.xib in Resources */,
+				2BE83BFC194B554C00E35681 /* InfoPlist.strings in Resources */,
+				2BE83C3E194B568600E35681 /* ZZZProviderNoteViewController.xib in Resources */,
+				2BC3192E194BE45E00755063 /* providerViewCell.xib in Resources */,
+				2BE83C2F194B557600E35681 /* RearViewController.xib in Resources */,
+				2BE83C04194B554C00E35681 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BE83C07194B554C00E35681 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE83C15194B554C00E35681 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BE83BEA194B554C00E35681 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE83C32194B557600E35681 /* SWRevealViewController.m in Sources */,
+				2BE83C3B194B568600E35681 /* ZZZFieldBackground.m in Sources */,
+				2BE83C3C194B568600E35681 /* ZZZIconToDrag.m in Sources */,
+				2BC31936194BE56B00755063 /* Patient.m in Sources */,
+				2BE83C30194B557600E35681 /* FrontViewController.m in Sources */,
+				2BE83BFE194B554C00E35681 /* main.m in Sources */,
+				2BE83C2D194B557600E35681 /* CustomAnimationController.m in Sources */,
+				2BE83C3D194B568600E35681 /* ZZZProviderNoteViewController.m in Sources */,
+				2B2916F5194B7C02005786E8 /* MyInfoViewController.m in Sources */,
+				2B2916F6194B7C02005786E8 /* MyInfoPicCell.m in Sources */,
+				2BE83C2C194B557600E35681 /* AppDelegate.m in Sources */,
+				2BC31935194BE56B00755063 /* PatientCell.m in Sources */,
+				2B2916FA194B7C02005786E8 /* UserMetric.m in Sources */,
+				2BC31925194BE1A900755063 /* ZZZSettingViewController.m in Sources */,
+				2B2916E9194B726A005786E8 /* SignInModalViewController.m in Sources */,
+				2BC31930194BE45E00755063 /* ProviderViewController.m in Sources */,
+				2B2916F9194B7C02005786E8 /* MyInfoViewCell.m in Sources */,
+				2BE83C2E194B557600E35681 /* RearViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BE83C05194B554C00E35681 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE83C17194B554C00E35681 /* Sidebar4Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BE83C0F194B554C00E35681 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BE83BED194B554C00E35681 /* POEMiPad */;
+			targetProxy = 2BE83C0E194B554C00E35681 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2BE83BFA194B554C00E35681 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BE83BFB194B554C00E35681 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2BE83C13194B554C00E35681 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BE83C14194B554C00E35681 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BE83C18194B554C00E35681 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		2BE83C19194B554C00E35681 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BE83C1B194B554C00E35681 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "POEMiPad/POEMiPad-Prefix.pch";
+				INFOPLIST_FILE = "POEMiPad/POEMiPad-Info.plist";
+				PRODUCT_NAME = POEMiPad;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2BE83C1C194B554C00E35681 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "POEMiPad/POEMiPad-Prefix.pch";
+				INFOPLIST_FILE = "POEMiPad/POEMiPad-Info.plist";
+				PRODUCT_NAME = POEMiPad;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2BE83C1E194B554C00E35681 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sidebar4.app/Sidebar4";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sidebar4/Sidebar4-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Sidebar4Tests/POEMiPadTests-Info.plist";
+				PRODUCT_NAME = POEMiPadTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2BE83C1F194B554C00E35681 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sidebar4.app/Sidebar4";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sidebar4/Sidebar4-Prefix.pch";
+				INFOPLIST_FILE = "Sidebar4Tests/POEMiPadTests-Info.plist";
+				PRODUCT_NAME = POEMiPadTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BE83BE9194B554C00E35681 /* Build configuration list for PBXProject "POEMiPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BE83C18194B554C00E35681 /* Debug */,
+				2BE83C19194B554C00E35681 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BE83C1A194B554C00E35681 /* Build configuration list for PBXNativeTarget "POEMiPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BE83C1B194B554C00E35681 /* Debug */,
+				2BE83C1C194B554C00E35681 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BE83C1D194B554C00E35681 /* Build configuration list for PBXNativeTarget "POEMiPadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BE83C1E194B554C00E35681 /* Debug */,
+				2BE83C1F194B554C00E35681 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BE83BE6194B554C00E35681 /* Project object */;
+}
